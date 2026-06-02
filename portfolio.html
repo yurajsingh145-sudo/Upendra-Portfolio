@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuvraj Singh | AI & Data Science Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#020617;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.hero-content span{
+    color:#38bdf8;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:30px;
+    color:#cbd5e1;
+}
+
+.btn{
+    text-decoration:none;
+    background:#38bdf8;
+    color:black;
+    padding:12px 25px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:40px;
+    color:#38bdf8;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+    color:#cbd5e1;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.4s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#cbd5e1;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px;
+    color:#cbd5e1;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:40px;
+}
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    margin-top:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">Portfolio</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Yuvraj Singh</span></h1>
+
+        <p>
+            AI & Data Science Enthusiast | Machine Learning Developer |
+            Deep Learning | NLP | Computer Vision
+        </p>
+
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="title">About Me</h2>
+
+    <div class="about">
+        <p>
+            I am passionate about Artificial Intelligence, Machine Learning,
+            Deep Learning, NLP, Computer Vision and Data Science.
+            I enjoy building intelligent applications that solve real-world problems.
+        </p>
+
+        <br>
+
+        <p>
+            My interests include Sentiment Analysis, Retrieval-Augmented Generation (RAG),
+            Object Detection, Emotion Detection, Reinforcement Learning,
+            Data Visualization and Generative AI.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="title">Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill-card">
+            <h3>Python</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Machine Learning</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Deep Learning</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>NLP</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Computer Vision</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Flask</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>SQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Power BI</h3>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="title">Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Multimodal Emotion Detection</h3>
+            <p>
+                Emotion detection using facial expressions and text data
+                with machine learning and deep learning models.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Academic Research Assistant</h3>
+            <p>
+                RAG based assistant that retrieves research papers,
+                summarizes findings and answers user questions.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>PDF Question Answering System</h3>
+            <p>
+                Upload a PDF and ask questions from the document using
+                vector databases and language models.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Helmet Detection</h3>
+            <p>
+                Object detection system to identify helmet usage using
+                computer vision techniques.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Sentiment Analysis System</h3>
+            <p>
+                Analyze customer reviews and classify sentiments
+                into positive, negative and neutral categories.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Blind Navigation Assistant</h3>
+            <p>
+                AI-powered object detection and voice guidance system
+                for visually impaired individuals.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="title">Contact Me</h2>
+
+    <div class="contact">
+
+        <p>📧 Email : yourmail@gmail.com</p>
+
+        <p>💼 LinkedIn : linkedin.com/in/yourprofile</p>
+
+        <p>🐙 GitHub : github.com/yourgithub</p>
+
+        <p>📱 Phone : +91 XXXXX XXXXX</p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Yuvraj Singh | AI & Data Science Portfolio</p>
+</footer>
+
+</body>
+</html>
